@@ -1,0 +1,5 @@
+https://openweathermap.org/current
+user:ronysharif
+password:)Wd.BECQK/*6*?C
+key:d19374dddfc8208c8b3afbba05866eae
+Api:api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}

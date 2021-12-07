@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap");
+
+:root {
+    --colorTextSecondary: floralwhite;
+
+    --colorPrimary: #20408A;
+    --colorSecondary: #BEBCBC;
+    --colorTertiary: whitesmoke;
+}
+
+fieldset{
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 0.5rem 0 0.5rem 2rem;
+    color: var(--colorTextSecondary);
+    background-color: var(--colorPrimary);
+}
+
+main {
+    padding: 0.5rem 1rem;
+    line-height: 1.4rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0.25rem 0 0.25rem 0;
+    color: var(--colorTextSecondary);
+    background-color: var(--colorPrimary);
+    text-align: center;
+}
+
+p, div {
+    background-color: var(--colorSecondary);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+p {
+    padding: 1rem;
+}
+div > p {
+    margin-bottom: 0;
+}
+div {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+span {
+    font-weight: bold;
+}
+code {
+    font-size: 1.2rem;
+}
+
+table {
+    margin: auto;
+    padding: 0.25rem;
+    width: 80%;
+    background-color: var(--colorTextSecondary);
+    border-radius: 0.25rem;
+}
+th, td {
+    padding: 0 1rem;
+    border: thin solid var(--colorPrimary);
+}
+th {
+    color: var(--colorTextSecondary);
+    background-color: var(--colorPrimary);
+    text-align: left;
+}
+td {
+    background-color: var(--colorTextSecondary);
+}
